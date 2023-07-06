@@ -14,11 +14,10 @@ class Chronometer {
     }, 1000)
   }
 
-
   getMinutes() {
+    console.log("..")
     return Math.floor(this.currentTime / 60)
   }
-
 
   getSeconds() {
     return this.currentTime % 60
